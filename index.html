@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Зоомагазин ПетСвіт - Все для ваших улюбленців</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">
+                    <i class="fas fa-paw"></i>
+                    ПетСвіт
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Головна</a></li>
+                    <li><a href="products.html">Товари</a></li>
+                    <li><a href="cart.html">Кошик</a></li>
+                    <li><a href="#contact">Контакти</a></li>
+                </ul>
+                <a href="cart.html" class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Головна секція -->
+    <section class="hero">
+        <div class="container">
+            <h1>Все для ваших чотирилапих друзів</h1>
+            <p>Якісні корми, іграшки, аксесуари та товари для догляду за вашими домашніми улюбленцями. Швидка доставка по всій Україні.</p>
+            <a href="products.html" class="btn">Переглянути товари</a>
+        </div>
+    </section>
+
+    <!-- Категорії товарів -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Популярні категорії</h2>
+            <div class="categories">
+                <div class="category-card">
+                    <img src="images/pet-food.jpg" alt="Корми для тварин">
+                    <h3>Корми</h3>
+                </div>
+                <div class="category-card">
+                    <img src="images/toys.jpg" alt="Іграшки для тварин">
+                    <h3>Іграшки</h3>
+                </div>
+                <div class="category-card">
+                    <img src="images/accessories.jpg" alt="Аксесуари">
+                    <h3>Аксесуари</h3>
+                </div>
+                <div class="category-card">
+                    <img src="images/pet-care.jpg" alt="Догляд за тваринами">
+                    <h3>Догляд</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Переваги -->
+    <section class="section" style="background-color: #f0f7f0;">
+        <div class="container">
+            <h2 class="section-title">Чому обирають нас</h2>
+            <div class="categories">
+                <div class="category-card" style="text-align: left; padding: 30px;">
+                    <i class="fas fa-shield-alt" style="font-size: 3rem; color: var(--primary-color); margin-bottom: 20px;"></i>
+                    <h3>Гарантія якості</h3>
+                    <p>Усі товари сертифіковані та безпечні для ваших улюбленців</p>
+                </div>
+                <div class="category-card" style="text-align: left; padding: 30px;">
+                    <i class="fas fa-truck-fast" style="font-size: 3rem; color: var(--primary-color); margin-bottom: 20px;"></i>
+                    <h3>Швидка доставка</h3>
+                    <p>Доставка по Києву за день, по Україні - 1-3 дні</p>
+                </div>
+                <div class="category-card" style="text-align: left; padding: 30px;">
+                    <i class="fas fa-headset" style="font-size: 3rem; color: var(--primary-color); margin-bottom: 20px;"></i>
+                    <h3>Підтримка 24/7</h3>
+                    <p>Наші консультанти завжди готові допомогти</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Підвал -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ПетСвіт</h3>
+                    <p>Найкращий вибір товарів для ваших домашніх улюбленців. Якість, надійність, любов до тварин.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Магазин</h3>
+                    <ul>
+                        <li><a href="index.html">Головна</a></li>
+                        <li><a href="products.html">Товари</a></li>
+                        <li><a href="cart.html">Кошик</a></li>
+                        <li><a href="#">Акції</a></li>
+                        <li><a href="#">Новинки</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Контакти</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> м. Київ, вул. Тваринна, 15</li>
+                        <li><i class="fas fa-phone"></i> (044) 123-45-67</li>
+                        <li><i class="fas fa-envelope"></i> info@petsvit.ua</li>
+                        <li><i class="fas fa-clock"></i> Пн-Нд: 9:00 - 21:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Зоомагазин "ПетСвіт". Всі права захищені.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

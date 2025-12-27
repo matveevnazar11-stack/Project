@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Товари для тварин - Зоомагазин ПетСвіт</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">
+                    <i class="fas fa-paw"></i>
+                    ПетСвіт
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="products.html" class="active">Товари</a></li>
+                    <li><a href="cart.html">Кошик</a></li>
+                    <li><a href="#contact">Контакти</a></li>
+                </ul>
+                <a href="cart.html" class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Фільтри товарів -->
+    <section class="section">
+        <div class="container">
+            <h1 class="section-title">Наші товари</h1>
+            
+            <div class="filters">
+                <div class="filter-group">
+                    <h3>Категорія</h3>
+                    <div class="filter-options">
+                        <button class="filter-btn active" data-category="all">Всі товари</button>
+                        <button class="filter-btn" data-category="food">Корми</button>
+                        <button class="filter-btn" data-category="toys">Іграшки</button>
+                        <button class="filter-btn" data-category="accessories">Аксесуари</button>
+                        <button class="filter-btn" data-category="care">Догляд</button>
+                    </div>
+                </div>
+                <div class="filter-group">
+                    <h3>Для кого</h3>
+                    <div class="filter-options">
+                        <button class="filter-btn active" data-pet="all">Всі</button>
+                        <button class="filter-btn" data-pet="dog">Для собак</button>
+                        <button class="filter-btn" data-pet="cat">Для котів</button>
+                        <button class="filter-btn" data-pet="bird">Для птахів</button>
+                        <button class="filter-btn" data-pet="fish">Для риб</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Товари -->
+            <div class="products-grid" id="products-container">
+                <!-- Товари будуть додані через JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Підвал -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ПетСвіт</h3>
+                    <p>Найкращий вибір товарів для ваших домашніх улюбленців. Якість, надійність, любов до тварин.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Магазин</h3>
+                    <ul>
+                        <li><a href="index.html">Головна</a></li>
+                        <li><a href="products.html">Товари</a></li>
+                        <li><a href="cart.html">Кошик</a></li>
+                        <li><a href="#">Акції</a></li>
+                        <li><a href="#">Новинки</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Контакти</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> м. Київ, вул. Тваринна, 15</li>
+                        <li><i class="fas fa-phone"></i> (044) 123-45-67</li>
+                        <li><i class="fas fa-envelope"></i> info@petsvit.ua</li>
+                        <li><i class="fas fa-clock"></i> Пн-Нд: 9:00 - 21:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Зоомагазин "ПетСвіт". Всі права захищені.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
